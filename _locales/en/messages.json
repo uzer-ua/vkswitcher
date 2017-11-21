@@ -1,0 +1,188 @@
+{
+	"appName": {
+		"message": "VK+ Switcher"
+	},
+	"appDesc": {
+		"message": "Lets you easily switch between multiple Vkontakte and other social networks accounts."
+	},
+	"defTitle": {
+		"message": "VK Switcher"
+	},
+	"opts_1": {
+		"message": "Settings"
+	},
+	"opts_2": {
+		"message": "Help"
+	},
+	"opts_3": {
+		"message": "<b>Additional information</b><br/>This extension is based on cookies.<br/>New profile is created using existing information, i.e. log into desired account first prior to creating new profile.<br/>Refresh page after switching to another profile."
+	},
+	"opts_4": {
+		"message": "Language:"
+	},
+	"opts_5": {
+		"message": "Hotkeys"
+	},
+	"opts_6": {
+		"message": "Switch previous tab"
+	},
+	"opts_7": {
+		"message": "Switch next tab"
+	},
+	"opts_8": {
+		"message": "Switch previous profile"
+	},
+	"opts_9": {
+		"message": "Switch next profile"
+	},
+	"opts_10": {
+		"message": "Select profile by number"
+	},
+	"opts_11": {
+		"message": "Coincident keys"
+	},
+	"opts_12": {
+		"message": "Wrong key"
+	},
+	"opts_13": {
+		"message": "Save"
+	},
+	"opts_14": {
+		"message": "Hotkeys allows you to switch between extension tabs or pfofiles without mouse and calling popup window. Note, that these hotkeys can override almost all browser built-in hotkeys (e.g. switching betseen tabs on Ctrl+Tab or Ctrl+&lt;tab number&gt;).<br/><b>Note.</b> Changes will take effect on each browser tab after you refresh page."
+	},
+	"opts_15": {
+		"message": "Export"
+	},
+	"opts_16": {
+		"message": "Import"
+	},
+	"opts_17": {
+		"message": "Export settings and profiles"
+	},
+	"opts_18": {
+		"message": "Import"
+	},
+	"opts_19": {
+		"message": "Select items to export:"
+	},
+	"opts_20": {
+		"message": "Everything"
+	},
+	"opts_21": {
+		"message": "Profiles"
+	},
+	"opts_22": {
+		"message": "Settings"
+	},
+	"opts_23": {
+		"message": "Select items to import:"
+	},
+	"opts_24": {
+		"message": "Save this text in any place and use for import."
+	},
+	"opts_25": {
+		"message": "Copy to clipboard"
+	},
+	"opts_26": {
+		"message": "Select import mode:"
+	},
+	"opts_27": {
+		"message": "Just add"
+	},
+	"opts_28": {
+		"message": "Full replace"
+	},
+	"opts_29": {
+		"message": "Merge imported profiles and settings with exciting"
+	},
+	"opts_30": {
+		"message": "Clear all exciting data and import new"
+	},
+	"opts_31": {
+		"message": "Put import text here"
+	},
+	"opts_32": {
+		"message": "You should enter import text"
+	},
+	"opts_33": {
+	 	"message": "Errors in input text"
+	},
+ 	"opts_34": {
+	 	"message": "No data to import"
+	},
+ 	"opts_35": {
+	 	"message": "Import complete successfully"
+	},
+ 	"opts_36": {
+	 	"message": "Switched to profile"
+	},
+ 	"opts_37": {
+	 	"message": "Switched to"
+	},
+	"opts_38": {
+		"message": "Autoswitch tab"
+	},
+	"opts_39": {
+		"message": "Automatically switch extension's active tab coresponding to browser's active tab's url"
+	},
+	"popup_1": {
+		"message": "No entries"
+	},
+	"popup_2": {
+		"message": "New profile "
+	},
+	"popup_3": {
+		"message": "Your profiles:"
+	},
+	"popup_4": {
+		"message": "New profile"
+	},
+	"popup_5": {
+		"message": "Help"
+	},
+	"popup_6": {
+		"message": "Create new profile using current session information"
+	},
+	"popup_7": {
+		"message": "Settings"
+	},
+	"popup_8": {
+		"message": "Rename"
+	},
+	"popup_9": {
+		"message": "Delete"
+	},
+	"popup_10": {
+		"message": "Open in new tab"
+	},
+	"help_1": {
+		"message": "Move mouse pointer to any element to see it's description"
+	},
+	"help_2": {
+		"message": "Tabs for switching between supported networks. In list are shown profiles for selected tab. Active tab highlighted with green color."
+	},
+	"help_3": {
+		"message": "Create new profile using exciting browser cookies."
+	},
+	"help_4": {
+		"message": "Profile sequence number, also used as profile identifier."
+	},
+	"help_5": {
+		"message": "Profile's title. Active profile is marked as bold. Drag title to any another profile to switch profiles order."
+	},
+	"help_6": {
+		"message": "Edit button. Click to change profile's title. Confirm by &lt;Enter&gt; or focus loss."
+	},
+	"help_7": {
+		"message": "Remove button. Removes corresponding profile. This action can not be undone."
+	},
+	"help_8": {
+		"message": "Configuration"
+	},
+	"help_9": {
+		"message": "This help"
+	},
+	"help_": {
+		"message": "&nbsp;"
+	}
+}

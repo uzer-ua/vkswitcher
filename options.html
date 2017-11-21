@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>VK+ Switcher</title>
+<style type="text/css">
+ul{
+	list-style:none;
+	padding-left:10px;
+	border-bottom:1px solid #000000;
+	padding-bottom:4px;
+}
+li{
+	display:inline;
+	border-radius:10px 10px 0 0;
+	#border:1px solid #000000;
+	background-color:#D0D0D0;
+	padding:5px 15px;
+	font-weight:bold;
+	cursor:pointer;
+}
+li:hover{
+	color:#FFFFFF;
+}
+li.selected{
+	border-bottom:1px solid #E0E0E0;
+	color: #FF0000;
+}
+</style>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/options.js"></script>
+</head>
+<body>
+<img src="img/icon-128-1.png" align="left"/><h1 style="padding-top:25px;margin-bottom:5px;">VK+ Switcher</h1><h2 style="margin-top:0;margin-bottom:35px;" mid="opts_1" class="mopts"></h2>
+<hr/>
+<ul>
+<li class="tabs selected mopts" name="tab4" mid="opts_1"></li>
+<li class="tabs mopts" name="tab1" mid="opts_5"></li>
+<li class="tabs mopts" name="tab2" mid="opts_15"></li>
+<li class="tabs mopts" name="tab3" mid="opts_16"></li>
+</ul>
+<div id="tab4" class="tabdivs">
+<input type="checkbox" id="autoswitch"><label for="autoswitch" mid="opts_38" class="mopts"></label>
+</div>
+<div id="tab1" class="tabdivs" style="display:none">
+<p style="margin-top:0;" mid="opts_14" class="mopts"></p>
+<div>
+<h4 style="margin-bottom:0;" mid="opts_6" class="mopts"></h4>
+<input type="checkbox" id="switchPreviousTab_c"><label for="switchPreviousTab_c">Ctrl <b>+</b></label>
+<input type="checkbox" id="switchPreviousTab_a"><label for="switchPreviousTab_a">Alt <b>+</b></label>
+<input type="checkbox" id="switchPreviousTab_s"><label for="switchPreviousTab_s">Shift <b>+</b></label>
+<input type="text" id="switchPreviousTab_k">
+<img src="img/delete.gif" style="height:16px;display:none;" />
+<img src="img/ok.png" style="height:16px;display:none;" />
+<br/><span id="result_switchPreviousTab" style="color:red"></span>
+</div>
+<div>
+<h4 style="margin:0;" mid="opts_7" class="mopts"></h4>
+<input type="checkbox" id="switchNextTab_c"><label for="switchNextTab_c">Ctrl <b>+</b></label>
+<input type="checkbox" id="switchNextTab_a"><label for="switchNextTab_a">Alt <b>+</b></label>
+<input type="checkbox" id="switchNextTab_s"><label for="switchNextTab_s">Shift <b>+</b></label>
+<input type="text" id="switchNextTab_k">
+<img src="img/delete.gif" style="height:16px;display:none;" />
+<img src="img/ok.png" style="height:16px;display:none;" />
+<br/><span id="result_switchNextTab" style="color:red"></span>
+</div>
+<div>
+<h4 style="margin:0;" mid="opts_8" class="mopts"></h4>
+<input type="checkbox" id="prevProfile_c"><label for="prevProfile_c">Ctrl <b>+</b></label>
+<input type="checkbox" id="prevProfile_a"><label for="prevProfile_a">Alt <b>+</b></label>
+<input type="checkbox" id="prevProfile_s"><label for="prevProfile_s">Shift <b>+</b></label>
+<input type="text" id="prevProfile_k">
+<img src="img/delete.gif" style="height:16px;display:none;" />
+<img src="img/ok.png" style="height:16px;display:none;" />
+<br/><span id="result_prevProfile" style="color:red"></span>
+</div>
+<div>
+<h4 style="margin:0;" mid="opts_9" class="mopts"></h4>
+<input type="checkbox" id="nextProfile_c"><label for="nextProfile_c">Ctrl <b>+</b></label>
+<input type="checkbox" id="nextProfile_a"><label for="nextProfile_a">Alt <b>+</b></label>
+<input type="checkbox" id="nextProfile_s"><label for="nextProfile_s">Shift <b>+</b></label>
+<input type="text" id="nextProfile_k">
+<img src="img/delete.gif" style="height:16px;display:none;" />
+<img src="img/ok.png" style="height:16px;display:none;" />
+<br/><span id="result_nextProfile" style="color:red"></span>
+</div>
+<div>
+<h4 style="margin:0;" mid="opts_10" class="mopts"></h4>
+<input type="checkbox" id="selectProfile_c"><label for="selectProfile_c">Ctrl <b>+</b></label>
+<input type="checkbox" id="selectProfile_a"><label for="selectProfile_a">Alt <b>+</b></label>
+<input type="checkbox" id="selectProfile_s"><label for="selectProfile_s">Shift <b>+</b></label>
+&lt;key 1-9&gt;
+<img src="img/delete.gif" style="height:16px;display:none;" />
+<img src="img/ok.png" style="height:16px;display:none;" />
+<br/><span id="result_selectProfile" style="color:red"></span>
+</div>
+<button mid="opts_13" class="mopts"></button>
+</div>
+<div id="tab2" class="tabdivs" style="display:none">
+<p style="margin-top:0;" mid="opts_17" class="mopts"></p>
+<div>
+<div>
+<b mid="opts_19" class="mopts"></b><br/>
+<input type="radio" name="tte" id="tte1" checked /><label for="tte1" mid="opts_20" class="mopts"></label><br/>
+<input type="radio" name="tte" id="tte2" /><label for="tte2" mid="opts_21" class="mopts"></label><br/>
+<input type="radio" name="tte" id="tte3" /><label for="tte3" mid="opts_22" class="mopts"></label><br/>
+<button mid="opts_15" class="mopts"></button>
+</div>
+<div style="display:none;">
+<span mid="opts_24" class="mopts"></span><br/>
+<button mid="opts_25" class="mopts"></button><br/>
+<textarea cols="100" rows="15"></textarea>
+</div>
+</div>
+</div>
+<div id="tab3" class="tabdivs" style="display:none">
+<p mid="opts_18" class="mopts"></p>
+<div>
+<div>
+<b mid="opts_23" class="mopts"></b><br/>
+<input type="radio" name="ttee" id="tte4" checked /><label for="tte4" mid="opts_20" class="mopts"></label><br/>
+<input type="radio" name="ttee" id="tte5" /><label for="tte5" mid="opts_21" class="mopts"></label><br/>
+<input type="radio" name="ttee" id="tte6" /><label for="tte6" mid="opts_22" class="mopts"></label><br/>
+<b mid="opts_26" class="mopts"></b><br/>
+<input type="radio" name="tteee" id="tte7" title="" /><label id="tte77" for="tte7" mid="opts_27" class="mopts"></label><br/>
+<input type="radio" name="tteee" id="tte8" title="" checked /><label id="tte88" for="tte8" mid="opts_28" class="mopts"></label><br/>
+<b mid="opts_31" class="mopts"></b><br/>
+<textarea cols="100" rows="15"></textarea><br/>
+<button mid="opts_16" class="mopts"></button>&nbsp;&nbsp;<span id="import_result" style="color:red">&nbsp;</span>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
