@@ -51,6 +51,9 @@ if (!VK_SWITCHER_HOTKEY_JS_INSERTED) {
 		if (!vkswhotkeys) {
 			return true;
 		}
+		if (!e.keyCode) {
+			return true;
+		}
 		var c = 0;
 		var a = 0;
 		var s = 0;
@@ -86,7 +89,7 @@ if (!VK_SWITCHER_HOTKEY_JS_INSERTED) {
 				}
 			}
 		}
-		if (vkswhotkeys.switchPreviousTab.c == c && vkswhotkeys.switchPreviousTab.a == a && vkswhotkeys.switchPreviousTab.s == s && vkswhotkeys.switchPreviousTab.k == k) {
+		if (vkswhotkeys.switchPreviousTab.k && vkswhotkeys.switchPreviousTab.c == c && vkswhotkeys.switchPreviousTab.a == a && vkswhotkeys.switchPreviousTab.s == s && vkswhotkeys.switchPreviousTab.k == k) {
 			chrome.extension.sendRequest({operation: 'hotkey', key: 'pt'}, function (response) {
 				responseHotkey('pt', response.status, response.message);
 			});
@@ -95,7 +98,7 @@ if (!VK_SWITCHER_HOTKEY_JS_INSERTED) {
 			e.bubbles = false;
 			return false;
 		}
-		if (vkswhotkeys.switchNextTab.c == c && vkswhotkeys.switchNextTab.a == a && vkswhotkeys.switchNextTab.s == s && vkswhotkeys.switchNextTab.k == k) {
+		if (vkswhotkeys.switchNextTab.k && vkswhotkeys.switchNextTab.c == c && vkswhotkeys.switchNextTab.a == a && vkswhotkeys.switchNextTab.s == s && vkswhotkeys.switchNextTab.k == k) {
 			chrome.extension.sendRequest({operation: 'hotkey', key: 'nt'}, function (response) {
 				responseHotkey('nt', response.status, response.message);
 			});
@@ -104,7 +107,7 @@ if (!VK_SWITCHER_HOTKEY_JS_INSERTED) {
 			e.bubbles = false;
 			return false;
 		}
-		if (vkswhotkeys.prevProfile.c == c && vkswhotkeys.prevProfile.a == a && vkswhotkeys.prevProfile.s == s && vkswhotkeys.prevProfile.k == k) {
+		if (vkswhotkeys.prevProfile.k && vkswhotkeys.prevProfile.c == c && vkswhotkeys.prevProfile.a == a && vkswhotkeys.prevProfile.s == s && vkswhotkeys.prevProfile.k == k) {
 			chrome.extension.sendRequest({operation: 'hotkey', key: 'pp'}, function (response) {
 				responseHotkey('pp', response.status, response.message);
 			});
@@ -113,7 +116,7 @@ if (!VK_SWITCHER_HOTKEY_JS_INSERTED) {
 			e.bubbles = false;
 			return false;
 		}
-		if (vkswhotkeys.nextProfile.c == c && vkswhotkeys.nextProfile.a == a && vkswhotkeys.nextProfile.s == s && vkswhotkeys.nextProfile.k == k) {
+		if (vkswhotkeys.nextProfile.k && vkswhotkeys.nextProfile.c == c && vkswhotkeys.nextProfile.a == a && vkswhotkeys.nextProfile.s == s && vkswhotkeys.nextProfile.k == k) {
 			chrome.extension.sendRequest({operation: 'hotkey', key: 'np'}, function (response) {
 				responseHotkey('np', response.status, response.message);
 			});
